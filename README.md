@@ -4,4 +4,4 @@ The formula goes as follows:
 
 (Child characters' individual growths + Mother's individual growths)/2=final growths.
 
-Currently, the program calculates inherited growth rates of selected Nohr children from a list of available mothers. 
+Currently, this program only calcaulates children growths from the Nohr route.
