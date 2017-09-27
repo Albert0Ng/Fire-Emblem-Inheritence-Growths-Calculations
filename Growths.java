@@ -399,7 +399,7 @@ public class Growths{
         }}while(loop==1);
     }
     
-    public static void Ingatius(){//Keaton's child
+    public static void Ingatius(){//Benny's child
         loop = 1;
         HP = 40; Atk = 50; Mag = 0; Skl = 40;
         Spd = 30; Lck = 55; Def = 45; Res = 35;
