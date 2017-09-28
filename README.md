@@ -4,4 +4,4 @@ The formula goes as follows:
 
 (Child characters' individual growths + Mother's individual growths)/2=final growths.
 
-Currently, this program only calcaulates children growths from the Nohr route.
+Currently, this program only calcaulates children growths from both Nohr and Hoshido route.
