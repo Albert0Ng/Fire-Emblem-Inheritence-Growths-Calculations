@@ -584,6 +584,12 @@ public class Growths{
             else if(Mother.equals("BERUKA")){
                 berukaGrowths();
             }
+            else if(Mother.equals("SAKURA")){
+                sakuraGrowths();
+            }
+            else if(Mother.equals("HINOKA")){
+                hinokaGrowths();
+            }
             else if(Mother.equals("RINKAH")){
                 rinkahGrowths();
             }
@@ -643,6 +649,12 @@ public class Growths{
             else if(Mother.equals("HANA")){
                 hanaGrowths();
             }
+            else if(Mother.equals("SAKURA")){
+                sakuraGrowths();
+            }
+            else if(Mother.equals("HINOKA")){
+                hinokaGrowths();
+            }
             else if(Mother.equals("NYX")){
                 nyxGrowths();
             }
@@ -696,6 +708,12 @@ public class Growths{
             else if(Mother.equals("HANA")){
                 hanaGrowths();
             }
+            else if(Mother.equals("SAKURA")){
+                sakuraGrowths();
+            }
+            else if(Mother.equals("HINOKA")){
+                hinokaGrowths();
+            }
             else if(Mother.equals("NYX")){
                 nyxGrowths();
             }
@@ -746,6 +764,12 @@ public class Growths{
             }
             else if(Mother.equals("HANA")){
                 hanaGrowths();
+            }
+            else if(Mother.equals("SAKURA")){
+                sakuraGrowths();
+            }
+            else if(Mother.equals("HINOKA")){
+                hinokaGrowths();
             }
             else if(Mother.equals("PERI")){
                 periGrowths();
@@ -798,6 +822,12 @@ public class Growths{
             else if(Mother.equals("HANA")){
                 hanaGrowths();
             }
+            else if(Mother.equals("SAKURA")){
+                sakuraGrowths();
+            }
+            else if(Mother.equals("HINOKA")){
+                hinokaGrowths();
+            }
             else if(Mother.equals("EFFIE")){
                 effieGrowths();
             }
@@ -849,6 +879,12 @@ public class Growths{
             else if(Mother.equals("HANA")){
                 hanaGrowths();
             }
+            else if(Mother.equals("SAKURA")){
+                sakuraGrowths();
+            }
+            else if(Mother.equals("HINOKA")){
+                hinokaGrowths();
+            }
             else if(Mother.equals("PERI")){
                 periGrowths();
             }
@@ -871,6 +907,231 @@ public class Growths{
             System.out.println("Invalid Mother\nPlease try again");
         }}while(loop==1);
     }
+    
+    public static void Sophie(){//Silas's child
+            HP = 35; Atk = 35; Mag = 10; Skl = 55; 
+            Spd = 55; Lck = 35; Def = 25; Res = 35; 
+            //Loops for user to choose mother from which inheritence comes from
+            do{
+            System.out.println("Enter Sophie's Mother here: \nOr enter stop to choose another child: ");
+            Mother = s.nextLine();
+            Mother = Mother.toUpperCase();
+            System.out.println(Mother);
+            Mother = Mother.trim();     
+            if(Mother.equals("AZURA")){
+                Growths.azuraGrowths();
+            }
+            else if(Mother.equals("FELICIA")){
+                Growths.feliciaGrowths();
+            }
+            else if(Mother.equals("MOZU")){
+                Growths.mozuGrowths();
+            }
+            else if(Mother.equals("EFFIE")){
+                Growths.effieGrowths();
+            }
+            else if(Mother.equals("NYX")){
+                Growths.nyxGrowths();
+            }
+            else if(Mother.equals("SELENA")){
+                Growths.selenaGrowths();
+            }
+            else if(Mother.equals("BERUKA")){
+                Growths.berukaGrowths();
+            }
+            else if(Mother.equals("PERI")){
+                Growths.periGrowths();
+            }
+            else if(Mother.equals("CHARLOTTE")){
+                Growths.charlotteGrowths();
+            }
+            else if(Mother.equals("SAKURA")){
+                Growths.sakuraGrowths();
+            }
+            else if(Mother.equals("HINOKA")){
+                Growths.hinokaGrowths();
+            }
+            else if(Mother.equals("ELISE")){
+                Growths.eliseGrowths();
+            }
+            else if(Mother.equals("RINKAH")){
+                Growths.rinkahGrowths();
+            }
+            else if(Mother.equals("HANA")){
+                Growths.hanaGrowths();
+            }
+            else if(Mother.equals("CAMILLA")){
+                Growths.camillaGrowths();
+            }
+            else if(Mother.equals("OROCHI")){
+                Growths.orochiGrowths();
+            }
+            else if(Mother.equals("SETSUNA")){
+                Growths.setsunaGrowths();
+            }
+            else if(Mother.equals("OBORO")){
+                Growths.oboroGrowths();
+            }
+            else if(Mother.equals("KAGERO")){
+                Growths.kageroGrowths();
+            }
+            else if(Mother.equals("STOP")){
+                loop = 0;
+            }
+            else{
+            System.out.println("Invalid Mother\nPlease try again");
+            }}while(loop==1);
+        }
+        
+        public static void Midori(){//Kaze's child
+            HP = 45; Atk = 35; Mag = 5; Skl = 55; 
+            Spd = 35; Lck = 50; Def = 30; Res = 20; 
+            //Loops for user to choose mother from which inheritence comes from
+            do{
+            System.out.println("Enter Midori's Mother here: \nOr enter stop to choose another child: ");
+            Mother = s.nextLine();
+            Mother = Mother.toUpperCase();
+            System.out.println(Mother);
+            Mother = Mother.trim();     
+            if(Mother.equals("AZURA")){
+                Growths.azuraGrowths();
+            }
+            else if(Mother.equals("FELICIA")){
+                Growths.feliciaGrowths();
+            }
+            else if(Mother.equals("MOZU")){
+                Growths.mozuGrowths();
+            }
+            else if(Mother.equals("EFFIE")){
+                Growths.effieGrowths();
+            }
+            else if(Mother.equals("NYX")){
+                Growths.nyxGrowths();
+            }
+            else if(Mother.equals("SELENA")){
+                Growths.selenaGrowths();
+            }
+            else if(Mother.equals("BERUKA")){
+                Growths.berukaGrowths();
+            }
+            else if(Mother.equals("PERI")){
+                Growths.periGrowths();
+            }
+            else if(Mother.equals("CHARLOTTE")){
+                Growths.charlotteGrowths();
+            }
+            else if(Mother.equals("SAKURA")){
+                Growths.sakuraGrowths();
+            }
+            else if(Mother.equals("HINOKA")){
+                Growths.hinokaGrowths();
+            }
+            else if(Mother.equals("ELISE")){
+                Growths.eliseGrowths();
+            }
+            else if(Mother.equals("RINKAH")){
+                Growths.rinkahGrowths();
+            }
+            else if(Mother.equals("HANA")){
+                Growths.hanaGrowths();
+            }
+            else if(Mother.equals("CAMILLA")){
+                Growths.camillaGrowths();
+            }
+            else if(Mother.equals("OROCHI")){
+                Growths.orochiGrowths();
+            }
+            else if(Mother.equals("SETSUNA")){
+                Growths.setsunaGrowths();
+            }
+            else if(Mother.equals("OBORO")){
+                Growths.oboroGrowths();
+            }
+            else if(Mother.equals("KAGERO")){
+                Growths.kageroGrowths();
+            }
+            else if(Mother.equals("STOP")){
+                loop = 0;
+            }
+            else{
+            System.out.println("Invalid Mother\nPlease try again");
+            }}while(loop==1);
+        }
+        
+        public static void Dwyer(){//Jakob's child
+            HP = 45; Atk = 45; Mag = 30; Skl = 20; 
+            Spd = 30; Lck = 30; Def = 30; Res = 35; 
+            //Loops for user to choose mother from which inheritence comes from
+            do{
+            System.out.println("Enter Dwyer's Mother here: \nOr enter stop to choose another child: ");
+            Mother = s.nextLine();
+            Mother = Mother.toUpperCase();
+            System.out.println(Mother);
+            Mother = Mother.trim();     
+            if(Mother.equals("AZURA")){
+                Growths.azuraGrowths();
+            }
+            else if(Mother.equals("FELICIA")){
+                Growths.feliciaGrowths();
+            }
+            else if(Mother.equals("MOZU")){
+                Growths.mozuGrowths();
+            }
+            else if(Mother.equals("EFFIE")){
+                Growths.effieGrowths();
+            }
+            else if(Mother.equals("NYX")){
+                Growths.nyxGrowths();
+            }
+            else if(Mother.equals("SELENA")){
+                Growths.selenaGrowths();
+            }
+            else if(Mother.equals("BERUKA")){
+                Growths.berukaGrowths();
+            }
+            else if(Mother.equals("PERI")){
+                Growths.periGrowths();
+            }
+            else if(Mother.equals("CHARLOTTE")){
+                Growths.charlotteGrowths();
+            }
+            else if(Mother.equals("SAKURA")){
+                Growths.sakuraGrowths();
+            }
+            else if(Mother.equals("HINOKA")){
+                Growths.hinokaGrowths();
+            }
+            else if(Mother.equals("ELISE")){
+                Growths.eliseGrowths();
+            }
+            else if(Mother.equals("RINKAH")){
+                Growths.rinkahGrowths();
+            }
+            else if(Mother.equals("HANA")){
+                Growths.hanaGrowths();
+            }
+            else if(Mother.equals("CAMILLA")){
+                Growths.camillaGrowths();
+            }
+            else if(Mother.equals("OROCHI")){
+                Growths.orochiGrowths();
+            }
+            else if(Mother.equals("SETSUNA")){
+                Growths.setsunaGrowths();
+            }
+            else if(Mother.equals("OBORO")){
+                Growths.oboroGrowths();
+            }
+            else if(Mother.equals("KAGERO")){
+                Growths.kageroGrowths();
+            }
+            else if(Mother.equals("STOP")){
+                loop = 0;
+            }
+            else{
+            System.out.println("Invalid Mother\nPlease try again");
+            }}while(loop==1);
+        }
     
     
     //These are the Growth methods for individual mothers 
@@ -1040,7 +1301,7 @@ public class Growths{
                 System.out.println((Res+InheritGrowths.Kagero.Res)/2);
     }
     public static void oboroGrowths(){
-                System.out.println("\nGrowths inherited from Hinoka");
+                System.out.println("\nGrowths inherited from Oboro");
                 System.out.println((HP+InheritGrowths.Oboro.HP)/2);
                 System.out.println((Atk+InheritGrowths.Oboro.Atk)/2);
                 System.out.println((Mag+InheritGrowths.Oboro.Mag)/2);
