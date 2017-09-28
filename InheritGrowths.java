@@ -19,7 +19,7 @@ public class InheritGrowths{
         static final int Lck = 55;
         static final int Def = 15;
         static final int Res = 35;
-        //healer/support
+        //healer/support/Oiffey archtype
     }
     public class Moz{/*Mozu's base Growths
         Renamed to Moz as program could not retrieve class variables with class name "Mozu"
@@ -32,6 +32,7 @@ public class InheritGrowths{
         static final int Lck = 45;
         static final int Def = 35;
         static final int Res = 30;
+        //Balanced physical fighter
     }
     public class Elise{
         static final int HP = 30;
@@ -147,7 +148,7 @@ public class InheritGrowths{
         static final int HP = 25;
         static final int Atk = 55;
         static final int Mag = 10;
-        static final int Skl = 40;
+        static final int Skl = 45;
         static final int Spd = 55;
         static final int Lck = 25;
         static final int Def = 20;
@@ -207,5 +208,6 @@ public class InheritGrowths{
         static final int Lck = 30;
         static final int Def = 25;
         static final int Res = 40;
+        //Mage killer/high strength
     }
 }
