@@ -4,4 +4,4 @@ Using the mother's and children's base growths, the formula goes as follows:
 
 (Child characters' individual growths + Mother's individual growths)/2=final growths.
 
-Currently, this program only calcaulates growths of all children characters except Kana.
+Currently, this program only calcaulates growths of all children characters except Kana and Shigure.
