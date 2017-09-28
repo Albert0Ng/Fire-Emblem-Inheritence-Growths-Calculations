@@ -399,7 +399,7 @@ public class Growths{
         }}while(loop==1);
     }
     
-    public static void Ingatius(){//Benny's child
+    public static void Ignatius(){//Benny's child
         loop = 1;
         HP = 40; Atk = 50; Mag = 0; Skl = 40;
         Spd = 30; Lck = 55; Def = 45; Res = 35;
@@ -447,6 +447,422 @@ public class Growths{
             }
             else if(Mother.equals("OBORO")){
                 oboroGrowths();
+            }
+            else if(Mother.equals("STOP")){
+                loop = 0;
+            }
+            else{
+            System.out.println("Invalid Mother\nPlease try again");
+        }}while(loop==1);
+    }
+    
+    public static void Shiro(){//Ryoma's child
+        loop = 1;
+        HP = 50; Atk = 50; Mag = 0; Skl = 40;
+        Spd = 35; Lck = 35; Def = 45; Res = 30;
+        do{
+            System.out.println("Enter Shiro's Mother here: \nOr enter stop to choose another child: ");
+            Mother = s.nextLine();
+            Mother = Mother.toUpperCase();
+            System.out.println(Mother);
+            Mother = Mother.trim(); 
+            if(Mother.equals("AZURA")){
+                azuraGrowths();
+            }
+            else if(Mother.equals("FELICIA")){
+                feliciaGrowths();
+            }
+            else if(Mother.equals("MOZU")){
+                mozuGrowths();
+            }
+            else if(Mother.equals("ELISE")){
+                eliseGrowths();
+            }
+            else if(Mother.equals("RINKAH")){
+                rinkahGrowths();
+            }
+            else if(Mother.equals("HANA")){
+                hanaGrowths();
+            }
+            else if(Mother.equals("CAMILLA")){
+                camillaGrowths();
+            }
+            else if(Mother.equals("OROCHI")){
+                orochiGrowths();
+            }
+            else if(Mother.equals("SETSUNA")){
+                setsunaGrowths();
+            }
+            else if(Mother.equals("OBORO")){
+                oboroGrowths();
+            }
+            else if(Mother.equals("KAGERO")){
+                kageroGrowths();
+            }
+            else if(Mother.equals("STOP")){
+                loop = 0;
+            }
+            else{
+            System.out.println("Invalid Mother\nPlease try again");
+        }}while(loop==1);
+    }
+    
+        public static void Kiragi(){/*
+            #blameTakumi's child
+            */
+        loop = 1;
+        HP = 45; Atk = 40; Mag = 0; Skl = 45;
+        Spd = 50; Lck = 45; Def = 30; Res = 15;
+        do{
+            System.out.println("Enter Kiragi's Mother here: \nOr enter stop to choose another child: ");
+            Mother = s.nextLine();
+            Mother = Mother.toUpperCase();
+            System.out.println(Mother);
+            Mother = Mother.trim(); 
+            if(Mother.equals("AZURA")){
+                azuraGrowths();
+            }
+            else if(Mother.equals("FELICIA")){
+                feliciaGrowths();
+            }
+            else if(Mother.equals("MOZU")){
+                mozuGrowths();
+            }
+            else if(Mother.equals("ELISE")){
+                eliseGrowths();
+            }
+            else if(Mother.equals("RINKAH")){
+                rinkahGrowths();
+            }
+            else if(Mother.equals("HANA")){
+                hanaGrowths();
+            }
+            else if(Mother.equals("CAMILLA")){
+                camillaGrowths();
+            }
+            else if(Mother.equals("OROCHI")){
+                orochiGrowths();
+            }
+            else if(Mother.equals("SETSUNA")){
+                setsunaGrowths();
+            }
+            else if(Mother.equals("OBORO")){
+                oboroGrowths();
+            }
+            else if(Mother.equals("KAGERO")){
+                kageroGrowths();
+            }
+            else if(Mother.equals("STOP")){
+                loop = 0;
+            }
+            else{
+            System.out.println("Invalid Mother\nPlease try again");
+        }}while(loop==1);
+    }
+    
+        public static void notGaius(){/*Saizo's child
+            Original Character; do not steal
+            */
+        loop = 1;
+        HP = 40; Atk = 45; Mag = 50; Skl = 55;
+        Spd = 45; Lck = 50; Def = 30; Res = 20;
+        do{
+            System.out.println("Enter Asugi's Mother here: \nOr enter stop to choose another child: ");
+            Mother = s.nextLine();
+            Mother = Mother.toUpperCase();
+            System.out.println(Mother);
+            Mother = Mother.trim(); 
+            if(Mother.equals("AZURA")){
+                azuraGrowths();
+            }
+            else if(Mother.equals("FELICIA")){
+                feliciaGrowths();
+            }
+            else if(Mother.equals("MOZU")){
+                mozuGrowths();
+            }
+            else if(Mother.equals("BERUKA")){
+                berukaGrowths();
+            }
+            else if(Mother.equals("RINKAH")){
+                rinkahGrowths();
+            }
+            else if(Mother.equals("HANA")){
+                hanaGrowths();
+            }
+            else if(Mother.equals("CHARLOTTE")){
+                charlotteGrowths();
+            }
+            else if(Mother.equals("OROCHI")){
+                orochiGrowths();
+            }
+            else if(Mother.equals("SETSUNA")){
+                setsunaGrowths();
+            }
+            else if(Mother.equals("OBORO")){
+                oboroGrowths();
+            }
+            else if(Mother.equals("KAGERO")){
+                kageroGrowths();
+            }
+            else if(Mother.equals("STOP")){
+                loop = 0;
+            }
+            else{
+            System.out.println("Invalid Mother\nPlease try again");
+        }}while(loop==1);
+    }
+    
+    public static void notCordelia(){/*Subaki's child
+            Original Character; do not steal
+            */
+        loop = 1;
+        HP = 50; Atk = 35; Mag = 15; Skl = 40;
+        Spd = 40; Lck = 40; Def = 35; Res = 20;
+        do{
+            System.out.println("Enter Caeldori's Mother here: \nOr enter stop to choose another child: ");
+            Mother = s.nextLine();
+            Mother = Mother.toUpperCase();
+            System.out.println(Mother);
+            Mother = Mother.trim(); 
+            if(Mother.equals("AZURA")){
+                azuraGrowths();
+            }
+            else if(Mother.equals("FELICIA")){
+                feliciaGrowths();
+            }
+            else if(Mother.equals("MOZU")){
+                mozuGrowths();
+            }
+            else if(Mother.equals("SELENA")){
+                selenaGrowths();
+            }
+            else if(Mother.equals("RINKAH")){
+                rinkahGrowths();
+            }
+            else if(Mother.equals("HANA")){
+                hanaGrowths();
+            }
+            else if(Mother.equals("NYX")){
+                nyxGrowths();
+            }
+            else if(Mother.equals("OROCHI")){
+                orochiGrowths();
+            }
+            else if(Mother.equals("SETSUNA")){
+                setsunaGrowths();
+            }
+            else if(Mother.equals("OBORO")){
+                oboroGrowths();
+            }
+            else if(Mother.equals("KAGERO")){
+                kageroGrowths();
+            }
+            else if(Mother.equals("STOP")){
+                loop = 0;
+            }
+            else{
+            System.out.println("Invalid Mother\nPlease try again");
+        }}while(loop==1);
+    }
+    
+    public static void notTharja(){/*notRicken's child
+            Original Character; do not steal
+            */
+        loop = 1;
+        HP = 40; Atk = 15; Mag = 60; Skl = 10;
+        Spd = 50; Lck = 30; Def = 25; Res = 35;
+        do{
+            System.out.println("Enter Rhajat's Mother here: \nOr enter stop to choose another child: ");
+            Mother = s.nextLine();
+            Mother = Mother.toUpperCase();
+            System.out.println(Mother);
+            Mother = Mother.trim(); 
+            if(Mother.equals("AZURA")){
+                azuraGrowths();
+            }
+            else if(Mother.equals("FELICIA")){
+                feliciaGrowths();
+            }
+            else if(Mother.equals("MOZU")){
+                mozuGrowths();
+            }
+            else if(Mother.equals("EFFIE")){
+                effieGrowths();
+            }
+            else if(Mother.equals("RINKAH")){
+                rinkahGrowths();
+            }
+            else if(Mother.equals("HANA")){
+                hanaGrowths();
+            }
+            else if(Mother.equals("NYX")){
+                nyxGrowths();
+            }
+            else if(Mother.equals("OROCHI")){
+                orochiGrowths();
+            }
+            else if(Mother.equals("SETSUNA")){
+                setsunaGrowths();
+            }
+            else if(Mother.equals("OBORO")){
+                oboroGrowths();
+            }
+            else if(Mother.equals("KAGERO")){
+                kageroGrowths();
+            }
+            else if(Mother.equals("STOP")){
+                loop = 0;
+            }
+            else{
+            System.out.println("Invalid Mother\nPlease try again");
+        }}while(loop==1);
+    }
+    
+    public static void Hisame(){//Hinata's child
+        loop = 1;
+        HP = 50; Atk = 40; Mag = 0; Skl = 40;
+        Spd = 40; Lck = 25; Def = 30; Res = 20;
+        do{
+            System.out.println("Enter Hisame's Mother here: \nOr enter stop to choose another child: ");
+            Mother = s.nextLine();
+            Mother = Mother.toUpperCase();
+            System.out.println(Mother);
+            Mother = Mother.trim(); 
+            if(Mother.equals("AZURA")){
+                azuraGrowths();
+            }
+            else if(Mother.equals("FELICIA")){
+                feliciaGrowths();
+            }
+            else if(Mother.equals("MOZU")){
+                mozuGrowths();
+            }
+            else if(Mother.equals("SELENA")){
+                selenaGrowths();
+            }
+            else if(Mother.equals("RINKAH")){
+                rinkahGrowths();
+            }
+            else if(Mother.equals("HANA")){
+                hanaGrowths();
+            }
+            else if(Mother.equals("PERI")){
+                periGrowths();
+            }
+            else if(Mother.equals("OROCHI")){
+                orochiGrowths();
+            }
+            else if(Mother.equals("SETSUNA")){
+                setsunaGrowths();
+            }
+            else if(Mother.equals("OBORO")){
+                oboroGrowths();
+            }
+            else if(Mother.equals("KAGERO")){
+                kageroGrowths();
+            }
+            else if(Mother.equals("STOP")){
+                loop = 0;
+            }
+            else{
+            System.out.println("Invalid Mother\nPlease try again");
+        }}while(loop==1);
+    }
+    
+    public static void Mitama(){//Azama's child
+        loop = 1;
+        HP = 45; Atk = 40; Mag = 35; Skl = 45;
+        Spd = 50; Lck = 50; Def = 30; Res = 20;
+        do{
+            System.out.println("Enter Mitama's Mother here: \nOr enter stop to choose another child: ");
+            Mother = s.nextLine();
+            Mother = Mother.toUpperCase();
+            System.out.println(Mother);
+            Mother = Mother.trim(); 
+            if(Mother.equals("AZURA")){
+                azuraGrowths();
+            }
+            else if(Mother.equals("FELICIA")){
+                feliciaGrowths();
+            }
+            else if(Mother.equals("MOZU")){
+                mozuGrowths();
+            }
+            else if(Mother.equals("BERUKA")){
+                berukaGrowths();
+            }
+            else if(Mother.equals("RINKAH")){
+                rinkahGrowths();
+            }
+            else if(Mother.equals("HANA")){
+                hanaGrowths();
+            }
+            else if(Mother.equals("EFFIE")){
+                effieGrowths();
+            }
+            else if(Mother.equals("OROCHI")){
+                orochiGrowths();
+            }
+            else if(Mother.equals("SETSUNA")){
+                setsunaGrowths();
+            }
+            else if(Mother.equals("OBORO")){
+                oboroGrowths();
+            }
+            else if(Mother.equals("KAGERO")){
+                kageroGrowths();
+            }
+            else if(Mother.equals("STOP")){
+                loop = 0;
+            }
+            else{
+            System.out.println("Invalid Mother\nPlease try again");
+        }}while(loop==1);
+    }
+    
+    public static void Selkie(){//Kaden's child
+        loop = 1;
+        HP = 35; Atk = 30; Mag = 15; Skl = 35;
+        Spd = 55; Lck = 60; Def = 30; Res = 50;
+        do{
+            System.out.println("Enter Selkie's Mother here: \nOr enter stop to choose another child: ");
+            Mother = s.nextLine();
+            Mother = Mother.toUpperCase();
+            System.out.println(Mother);
+            Mother = Mother.trim(); 
+            if(Mother.equals("AZURA")){
+                azuraGrowths();
+            }
+            else if(Mother.equals("FELICIA")){
+                feliciaGrowths();
+            }
+            else if(Mother.equals("MOZU")){
+                mozuGrowths();
+            }
+            else if(Mother.equals("CHARLOTTE")){
+                charlotteGrowths();
+            }
+            else if(Mother.equals("RINKAH")){
+                rinkahGrowths();
+            }
+            else if(Mother.equals("HANA")){
+                hanaGrowths();
+            }
+            else if(Mother.equals("PERI")){
+                periGrowths();
+            }
+            else if(Mother.equals("OROCHI")){
+                orochiGrowths();
+            }
+            else if(Mother.equals("SETSUNA")){
+                setsunaGrowths();
+            }
+            else if(Mother.equals("OBORO")){
+                oboroGrowths();
+            }
+            else if(Mother.equals("KAGERO")){
+                kageroGrowths();
             }
             else if(Mother.equals("STOP")){
                 loop = 0;
