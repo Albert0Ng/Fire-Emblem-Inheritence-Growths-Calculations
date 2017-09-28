@@ -196,7 +196,7 @@ public class InheritGrowths{
         static final int Spd = 40;
         static final int Lck = 40;
         static final int Def = 40;
-        static final int Res = 40;
+        static final int Res = 30;
         //All rounder/flexible unit/best waifu
     }
     public class Kagero{
