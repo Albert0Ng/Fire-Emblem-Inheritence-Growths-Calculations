@@ -57,6 +57,15 @@ public class CalculateGrowths{
     else if(child.equals("SELKIE")){
         Growths.Selkie();
     }
+    else if(child.equals("SOPHIE")){
+        Growths.Sophie();
+    }
+    else if(child.equals("MIDORI")){
+        Growths.Midori();
+    }
+    else if(child.equals("DWYER")){
+        Growths.Dwyer();
+    }
     else if(child.equals("STOP")){
         loop = 0;
     }
